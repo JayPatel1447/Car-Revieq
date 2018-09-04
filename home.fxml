@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="holderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerClass.homeController">
+   <children>
+      <JFXButton fx:id="audi" layoutX="31.0" layoutY="24.0" onAction="#audiAction" prefHeight="238.0" prefWidth="349.0" style="-fx-background-color: #273445; -fx-background-radius: 15;" />
+      <JFXButton fx:id="mercedes" layoutX="396.0" layoutY="24.0" prefHeight="238.0" prefWidth="342.0" style="-fx-background-color: #273445; -fx-background-radius: 15;" />
+      <JFXButton fx:id="jaguar" layoutX="393.0" layoutY="272.0" prefHeight="238.0" prefWidth="349.0" style="-fx-background-color: #273445; -fx-background-radius: 15;" text="Button" />
+      <JFXButton fx:id="bmw" layoutX="31.0" layoutY="272.0" prefHeight="238.0" prefWidth="349.0" style="-fx-background-color: #273445; -fx-background-radius: 15;" text="Button" />
+      <ImageView fitHeight="184.0" fitWidth="316.0" layoutX="59.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="211.0" fitWidth="294.0" layoutX="421.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/jaguar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="214.0" fitWidth="303.0" layoutX="416.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Mercedes-Benz1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Audi" fitHeight="175.0" fitWidth="325.0" layoutX="50.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/audi.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
